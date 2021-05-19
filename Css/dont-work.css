@@ -1,0 +1,25 @@
+body{
+    background: #000;
+}
+
+.main{
+    width:1280px;
+    margin:0 auto;
+    margin-top:115px
+}
+
+h1{
+    color:#fff;
+    margin:0 auto;
+    text-align: center;
+}
+
+.im{
+    display: block;
+    width:120px;
+    height:75px;
+}
+
+a{
+    position: fixed;
+}

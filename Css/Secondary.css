@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    /* outline: 1px solid #FFF000; */
+}
+
+body{
+    background: url(../Images/backgroundNew1.jpg);
+    /*background-color: #FFD700;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.Up{
+    display: block;
+    width: 85px;
+    height: 30px;
+    position: fixed;
+    right:0px;
+    top:630px;
+    display: flex;
+    align-items: center;
+}
+
+.back{
+    background-color: #ffffff;
+    width: 85px;
+    height: 30px;
+    display:inline;
+    position: fixed;
+    right:0px;
+    top:630px;
+    opacity: 95%;
+}
+
+.Up a{
+    color:#000000;
+    padding-left: 10px;
+}
+
+.Up a:hover{
+    text-decoration: none;
+}
+
+.Up a:visited{
+    text-decoration: none;
+    
+}
+
+.main{
+    width:1180px;
+    margin:45px auto;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+
+h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-bottom: 65px;
+}
+
+.searcher{
+    background-color: #FFE4B5;
+    margin-top: 3px;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 5px solid #8B4513;
+    align-items: relative;
+}
+
+.searcher a{
+    position: absolute;
+    top:35px;
+    left:30px;
+}
+
+.searcher p{
+    margin-right: 149px;
+}
+
+span{
+    font-size: 25px;
+    font-weight: 550;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:#CD5C5C;
+}
+
+content {
+    display: flex;
+    background-color: #FFE4B5;
+    margin-top: 5px;
+    padding: 10px 110px;
+    justify-content: space-between;
+    /*border-top: 7.5px solid #FF1493;*/
+}
+
+.dish{
+    margin: 0 auto;
+}
+
+.cooking{
+    background-color: #FFE4B5;
+    margin-top: 3px;
+    padding: 10px 120px;    
+}
+
+.cooking h1{
+    display: flex;
+    justify-content: center;
+}
+
+.cooking img{
+    margin-bottom:15px;
+}
+
+.cooking p{
+    margin-left:35px;
+}
+
+footer{
+    margin-top:3px;
+    background-color: #FFE4B5;
+    padding: 10px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+footer h1{
+    font-size: 20px;
+}
+
+footer p{
+    padding-top:35px;
+}
+
+.Name{
+    font-size:14px;
+    color:red;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    
+}
